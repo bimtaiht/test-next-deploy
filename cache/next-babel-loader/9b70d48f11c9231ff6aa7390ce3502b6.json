@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { Post } from './Post';","map":{"version":3,"sources":["D:/0. Tai/Work/Code/test/test-next/test-next-frontend/test-nextjs/src/models/index.ts"],"names":["Post"],"mappings":"AAAA,SAAQA,IAAR,QAAmB,QAAnB","sourcesContent":["export {Post} from './Post'"]},"metadata":{},"sourceType":"module"}

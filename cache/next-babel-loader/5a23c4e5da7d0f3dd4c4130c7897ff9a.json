@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { connect } from 'mongoose';\nconst {\n  MONGO_URI = \"mongodb://admin:admin@192.168.1.178:27017/Test?authSource=admin\"\n} = process.env;\nconst options = {};\nexport const connectToDatabase = () => connect(MONGO_URI, options);","map":null,"metadata":{},"sourceType":"module"}

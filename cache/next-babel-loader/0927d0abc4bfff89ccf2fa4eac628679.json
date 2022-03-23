@@ -1,0 +1,1 @@
+{"ast":null,"code":"import mongoose, { model, Schema } from 'mongoose';\nconst PostSchema = new Schema({\n  title: {\n    type: String\n  },\n  date: {\n    type: String\n  },\n  content: {\n    type: String\n  }\n}, {\n  versionKey: false\n});\nexport const Post = mongoose.models.Post || model('Post', PostSchema);","map":null,"metadata":{},"sourceType":"module"}
